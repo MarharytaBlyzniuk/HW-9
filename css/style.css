@@ -1692,3 +1692,20 @@ hr {
     }
 
 }
+
+a:hover {
+    pointer-events: painted;
+    border-color: #504DEE;
+    color: blue;
+    font-size: 22px;
+}
+
+p:active {
+    font-size: 38px;
+    color: blue;
+}
+
+button:focus {
+    background-color: red;
+
+}
